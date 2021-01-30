@@ -14,5 +14,5 @@ jobs:
         aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws_region: ap-southeast-2
         function_name: Mytestfunction
-        zip_file: lambda_function.py
-        dry_run: true
+        zip_file: lambda_function.zip
+       
